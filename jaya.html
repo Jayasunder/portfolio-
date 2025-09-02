@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Jaya Sunder P</title>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <!-- Devicon for tech logos -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+  <style>
+    * {margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif;}
+    body {background: #f5f7fa; color: #333; line-height: 1.6; transition: background 0.3s, color 0.3s;}
+    
+    /* Header with blue background */
+    header {
+      text-align: center;
+      padding: 30px;
+      background: #0d6efd;
+      color: #fff;
+    }
+    header img {width: 150px; height: 150px; border-radius: 50%; cursor: pointer;}
+    header h1 {margin-top: 15px; font-size: 28px;}
+    header p {font-size: 16px; color: #fff;}
+    
+    .btn {
+      display: inline-block;
+      margin: 10px;
+      padding: 10px 20px;
+      background: #0d6efd;
+      color: #fff;
+      border-radius: 6px;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+    .btn:hover {background: #084298;}
+    .linkedin-btn {background: #0A66C2;}
+    .linkedin-btn:hover {background: #004182;}
+
+    section {padding: 50px 20px; max-width: 1000px; margin: auto;}
+    section h2 {font-size: 24px; margin-bottom: 20px; display: flex; align-items: center; gap: 10px;}
+    .grid {display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px;}
+    .card {background: #fff; padding: 20px; border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); text-align: center; transition: transform 0.3s, box-shadow 0.3s;}
+    .card:hover {transform: translateY(-5px); box-shadow: 0 6px 12px rgba(0,0,0,0.2);}
+    .card img, .card i {margin-bottom: 10px;}
+    
+    footer {text-align: center; padding: 20px; background: #222; color: #fff;}
+    .dark-mode {background: #121212; color: #eee;}
+    .dark-mode .card {background: #1e1e1e; color: #eee;}
+    .dark-mode footer {background: #000;}
+    .dark-mode .btn {background: #333; color: #fff;}
+
+    /* Scroll-to-Top Button */
+    #topBtn {
+      position: fixed; bottom: 25px; right: 25px; background: #0d6efd;
+      color: #fff; border: none; border-radius: 50%; width: 50px; height: 50px;
+      cursor: pointer; font-size: 22px; display: none; align-items: center; justify-content: center;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.25); transition: all 0.3s ease; z-index: 1000;
+    }
+    #topBtn.show {display: flex;}
+    #topBtn:hover {background: #084298; transform: scale(1.1);}
+
+    /* Logo sizes */
+    .data-logo {width: 80px; height: 80px; object-fit: contain; margin-bottom: 10px;}
+    .workshop-logo, .iitm-logo {display: block; margin: 10px auto 20px; width: 160px; object-fit: contain;}
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <a href="https://www.linkedin.com/in/jaya-sunder-p-993ba4296" target="_blank">
+      <img src="https://uploads.onecompiler.io/43gefzgna/3x2zp2yd7/InShot_20250721_181643138.png" alt="Profile Photo">
+    </a>
+    <h1>Jaya Sunder P</h1>
+    <p>Aspiring Data Analyst | Turning Data into Insights</p>
+
+    <!-- Highlighted Resume Button -->
+    <div style="margin: 20px 0;">
+      <a href="https://drive.google.com/file/d/1D-heHHF0qZIxR-JyGJ35Y-dxLjXYuBd7/view?usp=drivesdk"
+         class="btn"
+         target="_blank"
+         style="padding: 15px 30px; font-size: 18px; font-weight: 600;">
+         <i class="fa-solid fa-file"></i> View Resume
+      </a>
+    </div>
+
+    <!-- Other Buttons -->
+    <div>
+      <a href="https://github.com/Jayasunder" class="btn" target="_blank">
+        <i class="fa-brands fa-github"></i> GitHub
+      </a>
+      <a href="https://leetcode.com/u/jayasunder_p1234" class="btn" target="_blank">
+        <i class="fa-solid fa-code"></i> LeetCode
+      </a>
+      <a href="https://www.linkedin.com/in/jaya-sunder-p-993ba4296" class="btn linkedin-btn" target="_blank">
+        <i class="fa-brands fa-linkedin"></i> LinkedIn
+      </a>
+    </div>
+  </header>
+
+  <!-- About Me -->
+  <section id="about">
+    <h2><i class="fa-solid fa-user"></i> About Me</h2>
+    <p>
+      Jaya Sunder P is a detail-oriented and analytical Data Analyst with strong expertise in data collection, cleaning, transformation, visualization, and reporting. 
+      Proficient in converting complex datasets into clear, actionable insights that directly influence business decisions. Skilled in SQL, Excel, Python, Power BI, and Tableau, with a solid foundation in statistics, data modeling, and problem-solving.
+    </p>
+    <p>
+      He is experienced in designing interactive dashboards, building automated reports, performing exploratory data analysis (EDA), and applying predictive analytics techniques to identify trends, patterns, and anomalies. 
+      Adept at working with large structured and unstructured datasets, ensuring data quality, and applying ETL processes for reliable analysis.
+    </p>
+    <p>
+      Passionate about leveraging data to drive efficiency, optimize business processes, and support strategic growth. Known for strong communication, attention to detail, decision-making, and multitasking skills, ensuring effective collaboration across teams.
+    </p>
+  </section>
+
+  <!-- Education -->
+  <section id="education">
+    <h2><i class="fa-solid fa-graduation-cap"></i> Education</h2>
+    <div class="grid">
+      <div class="card">
+        <img src="https://img.icons8.com/color/96/artificial-intelligence.png" alt="AI Logo"/>
+        <h3>B.Tech – Artificial Intelligence & DS</h3>
+        <p>Paavai College of Engineering<br>CGPA: 7.8<br>Pursuing</p>
+      </div>
+      <div class="card">
+        <img src="https://img.icons8.com/color/96/school.png" alt="School Logo"/>
+        <h3>HSC – 12th</h3>
+        <p>S.D. Eaden Matric Hr. Sec. School<br>78% – 2022</p>
+      </div>
+      <div class="card">
+        <img src="https://img.icons8.com/color/96/school.png" alt="School Logo"/>
+        <h3>SSLC – 10th</h3>
+        <p>S.D. Eaden Matric Hr. Sec. School<br>90% – 2020</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Internships -->
+  <section>
+    <h2><i class="fa-solid fa-briefcase"></i> Internships</h2>
+    <div class="grid">
+      <div class="card">
+        <img src="https://img.icons8.com/color/96/google-logo.png" alt="Google Logo"/>
+        <h3>AI-ML Virtual Internship</h3>
+        <p>Google for Developers<br>Apr – Jun 2024</p>
+      </div>
+      <div class="card">
+        <img src="https://img.icons8.com/color/96/google-logo.png" alt="Google Logo"/>
+        <h3>Android Developer Internship</h3>
+        <p>Google for Developers<br>Jul – Sep 2024</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Workshops -->
+  <section id="workshops">
+    <h2><i class="fa-solid fa-chalkboard-teacher"></i> Workshops</h2>
+    <div class="grid">
+      <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTztdeVYbT3C13IBN7ETv9HTsREEdEbSKVUCg&s" alt="Image Description" width="100px">
+        <h3>Data Science Workshop</h3>
+        <p>IIT Madras – Mar 2025</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills">
+    <h2><i class="fa-solid fa-laptop-code"></i> Skills</h2>
+    <h3>Programming Languages</h3>
+    <div class="grid">
+      <div class="card"><i class="devicon-python-plain colored" style="font-size:80px;"></i><h3>Python</h3></div>
+      <div class="card"><i class="devicon-java-plain colored" style="font-size:80px;"></i><h3>Java</h3></div>
+    </div>
+    <h3>Database</h3>
+    <div class="grid">
+      <div class="card"><i class="devicon-mysql-plain colored" style="font-size:80px;"></i><h3>SQL</h3></div>
+    </div>
+    <h3>Web Technologies</h3>
+    <div class="grid">
+      <div class="card"><i class="devicon-html5-plain colored" style="font-size:80px;"></i><h3>HTML</h3></div>
+      <div class="card"><i class="devicon-css3-plain colored" style="font-size:80px;"></i><h3>CSS</h3></div>
+      <div class="card"><i class="devicon-javascript-plain colored" style="font-size:80px;"></i><h3>JavaScript</h3></div>
+    </div>
+    <h3>Data Visualization</h3>
+    <div class="grid">
+      <div class="card"><img src="https://img.icons8.com/color/96/power-bi.png" class="data-logo" alt="Power BI"/><h3>Power BI</h3></div>
+      <div class="card"><img src="https://img.icons8.com/color/96/microsoft-excel-2019.png" class="data-logo" alt="Excel"/><h3>Excel</h3></div>
+      <div class="card"><img src="https://img.icons8.com/color/96/tableau-software.png" class="data-logo" alt="Tableau"/><h3>Tableau</h3></div>
+    </div>
+    <h3>Version Control</h3>
+    <div class="grid">
+      <div class="card"><i class="devicon-github-original colored" style="font-size:80px;"></i><h3>GitHub</h3></div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects">
+    <h2><i class="fa-solid fa-diagram-project"></i> Projects</h2>
+    <div class="grid">
+      <div class="card"><img src="https://img.icons8.com/color/96/earth-planet.png" alt="Travel"/><h3>Travel Planner & Weather Forecasting</h3></div>
+      <div class="card"><img src="https://img.icons8.com/color/96/artificial-intelligence.png" alt="AI"/><h3>AI Rephraser with Plagiarism Estimation</h3></div>
+      <div class="card"><img src="https://img.icons8.com/color/96/news.png" alt="News"/><h3>Fake News Slayer</h3></div>
+      <div class="card"><img src="https://img.icons8.com/color/96/telegram-app.png" alt="Telegram"/><h3>Telegram Bot Development</h3></div>
+    </div>
+  </section>
+
+  <!-- Soft Skills -->
+  <section>
+    <h2><i class="fa-solid fa-star"></i> Soft Skills</h2>
+    <div class="grid">
+      <div class="card"><img src="https://img.icons8.com/color/96/visible.png" alt="Observation"/><h3>Observation</h3></div>
+      <div class="card"><img src="https://img.icons8.com/color/96/communication.png" alt="Communication"/><h3>Communication</h3></div>
+      <div class="card"><img src="https://img.icons8.com/color/96/goal.png" alt="Decision"/><h3>Decision Making</h3></div>
+      <div class="card"><img src="https://img.icons8.com/color/96/synchronize.png" alt="Multitasking"/><h3>Multi-tasking</h3></div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2><i class="fa-solid fa-envelope"></i> Contact</h2>
+    <p>Email: <a href="mailto:jayasundar8220@gmail.com">jayasundar8220@gmail.com</a></p>
+    <p>Phone: <a href="tel:+919843721975">+91-9843721975</a></p>
+    <p>Location: Cuddalore, Tamil Nadu – 608601</p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Jaya Sunder P | All Rights Reserved</p>
+    <button onclick="toggleDarkMode()" class="btn">🌙 Toggle Dark Mode</button>
+  </footer>
+
+  <!-- Scroll-to-Top Button -->
+  <button id="topBtn"><i class="fa-solid fa-arrow-up"></i></button>
+
+  <script>
+    // Dark mode toggle
+    function toggleDarkMode() {
+      document.body.classList.toggle('dark-mode');
+    }
+
+    // Scroll-to-top button
+    const topBtn = document.getElementById("topBtn");
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 200) {
+        topBtn.classList.add("show");
+      } else {
+        topBtn.classList.remove("show");
+      }
+    });
+    topBtn.addEventListener("click", () => {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+  </script>
+
+</body>
+</html>
